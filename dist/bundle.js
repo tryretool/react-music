@@ -10532,11 +10532,11 @@
 	    _src.Sequencer,
 	    { resolution: 16, bars: 2 },
 	    _react2.default.createElement(_src.Sampler, {
-	      sample: 'samples/kick.wav',
+	      sample: 'http://reactmusic.surge.sh/reverb/kick.wav',
 	      steps: [0, 4, 14]
 	    }),
 	    _react2.default.createElement(_src.Sampler, {
-	      sample: 'samples/snare.wav',
+	      sample: 'http://reactmusic.surge.sh/reverb/snare.wav',
 	      steps: [8, 24]
 	    })
 	  ),
@@ -10544,7 +10544,7 @@
 	    _src.Sequencer,
 	    { resolution: 16, bars: 4 },
 	    _react2.default.createElement(_src.Sampler, {
-	      sample: 'samples/hihat.wav',
+	      sample: 'http://reactmusic.surge.sh/reverb/hihat.wav',
 	      steps: [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60],
 	      volume: 80
 	    })
